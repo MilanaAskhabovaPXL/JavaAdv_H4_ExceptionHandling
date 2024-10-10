@@ -13,7 +13,7 @@ public class MultipleCatches {
 		try {
 			int getallen[] = new int[10];
 			getallen[positie] = 30 / deler;
-		} catch (ArrayIndexOutOfBoundsException e) {
+		} catch (ArrayIndexOutOfBoundsException e) { // dit exc moet eerst omd het subklasse vn onderste excep is
 			System.out.println("Je moet een positie kiezen tussen 0 en 9.");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
